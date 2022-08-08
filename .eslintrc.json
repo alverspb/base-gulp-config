@@ -1,0 +1,14 @@
+{
+  "extends": ["prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": ["error",{
+      "endOfLine": "auto"}
+    ],
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off"
+  },
+  "env": {
+    "es6": true
+  }
+}

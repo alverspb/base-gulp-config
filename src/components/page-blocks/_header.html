@@ -1,0 +1,29 @@
+<header>
+		<nav>
+			<!--
+				Если элемент имеет класс "active", тогда подключаем иконку, которая имеет путь "assets/svg/active/название.php"
+				Иначе подключаем иконку, которая имеет путь "assets/svg/название.php"
+				Это необходимо для того, чтобы иконка выглядела всегда корректно
+			-->
+			<div class="hn-element">
+				<div class="hn-logo">@@include('../../img/svg/profile.svg')</div>
+				<p class="hn-title">Профиль</p>
+			</div>
+			<div class="hn-element">
+				<div class="hn-logo">@@include('../../img/svg/appeal.svg')</div>
+				<p class="hn-title">Жалоба</p>
+			</div>
+			<div class="hn-element active">
+				<div class="hn-logo">@@include('../../img/svg/main.svg')</div>
+				<p class="hn-title">Главная</p>
+			</div>
+			<div class="hn-element">
+				<div class="hn-logo">@@include('../../img/svg/loc.svg')</div>
+				<p class="hn-title">Магазины</p>
+			</div>
+			<div class="hn-element">
+				<div class="hn-logo">@@include('../../img/svg/percent.svg')</div>
+				<p class="hn-title">Дис. карта</p>
+			</div>
+		</nav>
+	</header>
